@@ -1,0 +1,8 @@
+{
+    "model_name": "FlyRank Heuristic Baseline (Week 4)",
+    "dataset": "content_refresh_anonymized.csv",
+    "total_mature_pages": 30000,
+    "precision_at_50": 0.82,
+    "roc_auc": 0.745,
+    "description": "Baseline evaluation metrics for content refresh triage."
+}
