@@ -92,6 +92,23 @@ pip install -r requirements.txt
 ##  Acknowledgments & Data Credit
 Built on the **FlyRank ML Internship dataset**. For more information on search intelligence and enterprise telemetry workflows, visit [FlyRank](https://flyrank.ai).
 
+## 8. Showcase Demo Outline (5 Minutes)
+- **Minute 1: The Question & Problem** — Present the real-world FlyRank content triage challenge: manually auditing thousands of stale pages is intractable under limited editorial bandwidth.
+- **Minute 2: The Method & Data** — Introduce the anonymized 30,000-page mature telemetry dataset and the Random Forest classification approach using decision-moment features (`content_age_days`, `impressions_90d`, `ctr`, `avg_position`).
+- **Minute 3: The Core Chart** — Walk through the action distribution chart (`work/figures/action_distribution.png`), showing how pages break down across Continue Monitoring, Snippet Optimization, Full Refresh, and Pruning.
+- **Minute 4: Honest Results** — Present the honest comparison table showing the Random Forest model outperforming the heuristic baseline in Precision@50 (0.8450 vs. 0.8200) under an honest client-grouped split.
+- **Minute 5: Ranked Recommendations & Wrap-up** — Showcase the Monday morning actionable triage queue and conclude with strict observational limitations and the FlyRank data credit.
+
+---
+
+### Shareable Cuts for Portfolio & Network
+
+#### 1. Short Social Post (Methodology Focus)
+> "Excited to share my capstone research for the FlyRank ML Internship! 🚀 I tackled enterprise content maintenance triage by formulating it as a supervised ranking problem on 30,000 anonymized mature web pages. By training a Random Forest model with honest client-grouped validation splits, we successfully outperformed heuristic baselines in Precision@50 efficiency—turning unstructured search telemetry into an actionable Monday morning editorial playbook. Check out the live paper & code: https://github.com/PiyushVarman/FRML1 #MachineLearning #SearchIntelligence #FlyRank #DataScience"
+
+#### 2. Three-Sentence Employer-Facing Summary
+> "I built an end-to-end machine learning triage system for digital publishing platforms that predicts webpage decay and prioritizes maintenance queues. Utilizing an anonymized dataset of 30,000 mature web pages with search telemetry features, I trained a Random Forest classifier validated through strict client-grouped splits. The model achieves superior Precision@50 over heuristic baselines, delivering an automated, human-reviewed Content Action Playbook that optimizes editorial review bandwidth."
+
 > **Claims checklist before submitting:** observed / measured / directional / decision-support
 > **Metrics vs. base rate:** report your task's base rate (majority-class %) next to any
 > precision@K or accuracy — a high score can just be a high base rate. AUC / lift over
