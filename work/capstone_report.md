@@ -5,8 +5,12 @@
 - **Repo:** https://github.com/PiyushVarman/FRML1
 - **Date:** 3rd October 2026
 
+
 > Copy this file to `work/capstone_report.md` and fill it in as you build. The eight
 > sections mirror the Pass / Needs-Work rubric axes, so nothing here is optional.
+
+## 0. Abstract
+Digital enterprises publish thousands of webpages, making manual maintenance triage operationally unsustainable under limited editorial bandwidth. This work formulates content maintenance as a supervised scoring and ranking problem, evaluating observable historical telemetry (impressions, click-through rates, ranking positions, and update recency) to prioritize review queues. Utilizing an anonymized dataset of 30,000 mature web pages, we train a Random Forest model under honest client-grouped splits to predict content decay and traffic slippage. Our empirical evaluation demonstrates that learned ranking models outperform static heuristic baselines in Precision@50 efficiency. Finally, we translate model outputs into a human-reviewed Content Action Playbook with explicit operational guardrails, establishing a reproducible framework for search intelligence triage.
 
 ## 1. Problem framing
 
@@ -84,6 +88,9 @@ pip install -r requirements.txt
 **Data Credit:** Built on the FlyRank ML Internship dataset (FlyRank).
 
 ---
+
+##  Acknowledgments & Data Credit
+Built on the **FlyRank ML Internship dataset**. For more information on search intelligence and enterprise telemetry workflows, visit [FlyRank](https://flyrank.ai).
 
 > **Claims checklist before submitting:** observed / measured / directional / decision-support
 > **Metrics vs. base rate:** report your task's base rate (majority-class %) next to any
