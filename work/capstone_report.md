@@ -89,10 +89,7 @@ pip install -r requirements.txt
 
 ---
 
-##  Acknowledgments & Data Credit
-Built on the **FlyRank ML Internship dataset**. For more information on search intelligence and enterprise telemetry workflows, visit [FlyRank](https://flyrank.ai).
-
-## 8. Showcase Demo Outline (5 Minutes)
+## 9. Showcase Demo Outline (5 Minutes)
 - **Minute 1: The Question & Problem** — Present the real-world FlyRank content triage challenge: manually auditing thousands of stale pages is intractable under limited editorial bandwidth.
 - **Minute 2: The Method & Data** — Introduce the anonymized 30,000-page mature telemetry dataset and the Random Forest classification approach using decision-moment features (`content_age_days`, `impressions_90d`, `ctr`, `avg_position`).
 - **Minute 3: The Core Chart** — Walk through the action distribution chart (`work/figures/action_distribution.png`), showing how pages break down across Continue Monitoring, Snippet Optimization, Full Refresh, and Pruning.
@@ -108,6 +105,9 @@ Built on the **FlyRank ML Internship dataset**. For more information on search i
 
 #### 2. Three-Sentence Employer-Facing Summary
 > "I built an end-to-end machine learning triage system for digital publishing platforms that predicts webpage decay and prioritizes maintenance queues. Utilizing an anonymized dataset of 30,000 mature web pages with search telemetry features, I trained a Random Forest classifier validated through strict client-grouped splits. The model achieves superior Precision@50 over heuristic baselines, delivering an automated, human-reviewed Content Action Playbook that optimizes editorial review bandwidth."
+
+##  Acknowledgments & Data Credit
+Built on the **FlyRank ML Internship dataset**. For more information on search intelligence and enterprise telemetry workflows, visit [FlyRank](https://flyrank.ai).
 
 > **Claims checklist before submitting:** observed / measured / directional / decision-support
 > **Metrics vs. base rate:** report your task's base rate (majority-class %) next to any
